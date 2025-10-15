@@ -7,6 +7,7 @@ import Navbar from './components/layout/Navbar';
 // Page Components  
 import Dashboard from './pages/Dashboard';
 import Transactions from './pages/Transactions';
+import Documents from './pages/Documents';
 import Reports from './pages/Reports';
 import TaxCenter from './pages/TaxCenter';
 import Integrations from './pages/Integrations';
@@ -26,6 +27,7 @@ function App() {
         <main className="p-6">
           {currentPage === 'dashboard' && <Dashboard />}
           {currentPage === 'transactions' && <Transactions />}
+          {currentPage === 'documents' && <Documents />}
           {currentPage === 'reports' && <Reports />}
           {currentPage === 'tax-center' && <TaxCenter />}
           {currentPage === 'integrations' && <Integrations />}

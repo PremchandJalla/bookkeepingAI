@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="bg-dark-card border-b border-dark-border px-6 py-4 flex justify-between items-center">
       <div>
-        <h1 className="text-2xl font-semibold">Hi Alex! 👋</h1>
+        <h1 className="text-2xl font-semibold">Hi Sam! 👋</h1>
         <p className="text-dark-text-secondary">Here's what's happening with your business today</p>
       </div>
       

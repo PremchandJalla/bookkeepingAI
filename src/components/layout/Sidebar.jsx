@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { 
   Home, 
   FileText, 
+  FolderOpen,
   Settings,
   BarChart3,
   Calculator,
@@ -13,6 +14,7 @@ const Sidebar = ({ currentPage, setCurrentPage }) => {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: Home },
     { id: 'transactions', label: 'Transactions', icon: FileText },
+    { id: 'documents', label: 'Documents', icon: FolderOpen },
     { id: 'reports', label: 'Reports', icon: BarChart3 },
     { id: 'tax-center', label: 'Tax Center', icon: Calculator },
     { id: 'integrations', label: 'Integrations', icon: Cable },
