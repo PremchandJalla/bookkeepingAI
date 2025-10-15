@@ -8,6 +8,8 @@ import Navbar from './components/layout/Navbar';
 import Dashboard from './pages/Dashboard';
 import Transactions from './pages/Transactions';
 import Reports from './pages/Reports';
+import TaxCenter from './pages/TaxCenter';
+import Integrations from './pages/Integrations';
 import Settings from './pages/Settings';
 
 // Main App Component
@@ -25,6 +27,8 @@ function App() {
           {currentPage === 'dashboard' && <Dashboard />}
           {currentPage === 'transactions' && <Transactions />}
           {currentPage === 'reports' && <Reports />}
+          {currentPage === 'tax-center' && <TaxCenter />}
+          {currentPage === 'integrations' && <Integrations />}
           {currentPage === 'settings' && <Settings />}
         </main>
       </div>

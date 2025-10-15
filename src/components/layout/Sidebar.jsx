@@ -4,7 +4,9 @@ import {
   Home, 
   FileText, 
   Settings,
-  BarChart3
+  BarChart3,
+  Calculator,
+  Cable
 } from 'lucide-react';
 
 const Sidebar = ({ currentPage, setCurrentPage }) => {
@@ -12,6 +14,8 @@ const Sidebar = ({ currentPage, setCurrentPage }) => {
     { id: 'dashboard', label: 'Dashboard', icon: Home },
     { id: 'transactions', label: 'Transactions', icon: FileText },
     { id: 'reports', label: 'Reports', icon: BarChart3 },
+    { id: 'tax-center', label: 'Tax Center', icon: Calculator },
+    { id: 'integrations', label: 'Integrations', icon: Cable },
     { id: 'settings', label: 'Settings', icon: Settings },
   ];
 
