@@ -11,7 +11,7 @@ const Navbar = () => {
       
       <div className="flex items-center space-x-4">
         <div className="flex items-center space-x-2 bg-dark-bg border border-dark-border rounded-lg px-3 py-2">
-          <span className="text-sm">Oct 2024</span>
+          <span className="text-sm">Oct 2025</span>
           <ChevronDown size={16} />
         </div>
         

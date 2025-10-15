@@ -11,6 +11,7 @@ import Documents from './pages/Documents';
 import Reports from './pages/Reports';
 import TaxCenter from './pages/TaxCenter';
 import Integrations from './pages/Integrations';
+import Chatbot from './pages/Chatbot';
 import Settings from './pages/Settings';
 
 // Main App Component
@@ -31,6 +32,7 @@ function App() {
           {currentPage === 'reports' && <Reports />}
           {currentPage === 'tax-center' && <TaxCenter />}
           {currentPage === 'integrations' && <Integrations />}
+          {currentPage === 'chatbot' && <Chatbot />}
           {currentPage === 'settings' && <Settings />}
         </main>
       </div>

@@ -7,7 +7,8 @@ import {
   Settings,
   BarChart3,
   Calculator,
-  Cable
+  Cable,
+  MessageCircle
 } from 'lucide-react';
 
 const Sidebar = ({ currentPage, setCurrentPage }) => {
@@ -18,6 +19,7 @@ const Sidebar = ({ currentPage, setCurrentPage }) => {
     { id: 'reports', label: 'Reports', icon: BarChart3 },
     { id: 'tax-center', label: 'Tax Center', icon: Calculator },
     { id: 'integrations', label: 'Integrations', icon: Cable },
+    { id: 'chatbot', label: 'AI Assistant', icon: MessageCircle },
     { id: 'settings', label: 'Settings', icon: Settings },
   ];
 
