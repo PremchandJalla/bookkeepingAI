@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #0E1117;
+    color: #F0F6FC;
+    margin: 0;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-dark-card border border-dark-border rounded-xl p-6 shadow-glow;
+  }
+  
+  .metric-card {
+    @apply card hover:shadow-neon transition-all duration-300 transform hover:scale-105;
+  }
+  
+  .nav-item {
+    @apply flex items-center px-4 py-3 rounded-lg transition-colors duration-200 hover:bg-dark-card cursor-pointer;
+  }
+  
+  .nav-item.active {
+    @apply bg-neon-teal/10 text-neon-teal border-l-4 border-neon-teal;
+  }
+  
+  .badge {
+    @apply px-2 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .badge-auto {
+    @apply badge bg-green-500/20 text-green-400;
+  }
+  
+  .badge-review {
+    @apply badge bg-yellow-500/20 text-yellow-400;
+  }
+  
+  .badge-manual {
+    @apply badge bg-red-500/20 text-red-400;
+  }
+
+  .btn-primary {
+    @apply bg-neon-teal hover:bg-neon-teal/80 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200;
+  }
+}
