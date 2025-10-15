@@ -3,13 +3,15 @@ import { motion } from 'framer-motion';
 import { 
   Home, 
   FileText, 
-  Settings
+  Settings,
+  BarChart3
 } from 'lucide-react';
 
 const Sidebar = ({ currentPage, setCurrentPage }) => {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: Home },
     { id: 'transactions', label: 'Transactions', icon: FileText },
+    { id: 'reports', label: 'Reports', icon: BarChart3 },
     { id: 'settings', label: 'Settings', icon: Settings },
   ];
 
