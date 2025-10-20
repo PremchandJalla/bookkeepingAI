@@ -119,7 +119,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Built with ❤️ using React and modern web technologies
+- Built with using React and modern web technologies
 - Icons by [Lucide](https://lucide.dev/)
 - Charts powered by [Recharts](https://recharts.org/)
 - Animations by [Framer Motion](https://www.framer.com/motion/)
